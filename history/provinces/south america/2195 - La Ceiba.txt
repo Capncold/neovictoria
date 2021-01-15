@@ -1,0 +1,9 @@
+owner = MSQ
+controller = MSQ
+add_core = HON
+trade_goods = fruit
+life_rating = 31
+1861.1.1 = {
+	owner = HON
+	controller = HON
+}

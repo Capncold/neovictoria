@@ -1,0 +1,62 @@
+#########################################################
+#														#
+#      Events for Carthage								#
+#														#
+#########################################################
+
+country_event = {
+
+	id = 55551
+	title = "EVTNAME55551" #New Navy
+	desc = "EVTDESC55551"
+	picture = "carthage_navy"
+
+	trigger = {
+		tag = CTG
+		year = 1838
+		1725 = {
+			owned_by = THIS
+		}
+		money = 110000
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "EVT55551OPTA"
+		money = -100000
+		1725 = {
+			sub_unit = {
+				type = commerce_raider
+				value = current
+			}
+		}
+		1725 = {
+			sub_unit = {
+				type = commerce_raider
+				value = current
+			}
+		}
+		1725 = {
+			sub_unit = {
+				type = commerce_raider
+				value = current
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { money = 110000 }
+			}
+		}
+	}
+
+	option = {
+		name = "EVT55551OPTB"
+		prestige = -2
+	}
+}

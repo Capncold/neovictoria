@@ -1,0 +1,44 @@
+country_event = {
+	id = 33331
+	title = "EVTNAME33331"
+	desc = "EVTDESC33331"
+	picture = "flower_wars"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT33331OPTA"
+		any_pop = {
+			limit = {
+				OR = {
+					type = soldiers
+					type = officers
+				}
+			}
+			reduce_pop = 0.90
+		}
+		AZT = { country_event = 33332 }
+	}	
+}
+
+country_event = {
+	id = 33332
+	title = "EVTNAME33332"
+	desc = "EVTDESC33332"
+	picture = "flower_wars"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT33332OPTA"
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			reduce_pop = 1.05
+		}
+	}	
+}

@@ -1,0 +1,8 @@
+owner = NCA
+controller = NCA
+add_core = NCA
+add_core = EGY
+trade_goods = fruit
+life_rating = 20
+terrain = semidesert
+#terrain = coastal_desert

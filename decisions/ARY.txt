@@ -1,0 +1,342 @@
+political_decisions = {
+
+	show_aryan_decisions = {
+		picture = indoaryans
+		alert = no
+		potential = {
+			tag = ARY
+			NOT = { has_country_flag = aryan_decisions }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_country_flag = aryan_decisions
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	hide_aryan_decisions = {
+		picture = indoaryans
+		alert = no
+		potential = {
+			tag = ARY
+			has_country_flag = aryan_decisions
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			clr_country_flag = aryan_decisions
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ARY_embrace_panjabi = {
+		picture = honorary_aryan
+		potential = {
+			tag = ARY
+			has_country_flag = aryan_decisions
+			NOT = { has_country_flag = aryans_panjabi }
+			any_owned_province = { culture = panjabi }
+		}
+		
+		allow = {
+			prestige = 15
+		}
+		
+		effect = {
+			1239 = { add_core = ARY }
+			1234 = { add_core = ARY }
+			1237 = { add_core = ARY }
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				militancy = -1
+				consciousness = 1
+			}
+			set_country_flag = aryans_panjabi
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ARY_embrace_rajput = {
+		picture = honorary_aryan
+		potential = {
+			tag = ARY
+			has_country_flag = aryan_decisions
+			NOT = { has_country_flag = aryans_rajput }
+			any_owned_province = { culture = rajput }
+		}
+		
+		allow = {
+			prestige = 25
+		}
+		
+		effect = {
+			ENG_1264 = { add_core = ARY }
+			add_accepted_culture = rajput
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				militancy = 1
+				consciousness = 2
+			}
+			set_country_flag = aryans_rajput
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ARY_embrace_avadhi = {
+		picture = honorary_aryan
+		potential = {
+			tag = ARY
+			has_country_flag = aryan_decisions
+			NOT = { has_country_flag = aryans_avadhi }
+			any_owned_province = { culture = avadhi }
+		}
+		
+		allow = {
+			prestige = 40
+		}
+		
+		effect = {
+			1239 = { add_core = ARY }
+			1240 = { add_core = ARY }
+			1241 = { add_core = ARY }
+			1242 = { add_core = ARY }
+			1244 = { add_core = ARY }
+			add_accepted_culture = avadhi
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				militancy = 1
+				consciousness = 2
+			}
+			set_country_flag = aryans_avadhi
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ARY_embrace_kanauji = {
+		picture = honorary_aryan
+		potential = {
+			tag = ARY
+			has_country_flag = aryan_decisions
+			NOT = { has_country_flag = aryans_kanauji }
+			any_owned_province = { culture = kanauji }
+		}
+		
+		allow = {
+			prestige = 60
+			civilization_progress = 0.5
+		}
+		
+		effect = {
+			1273 = { add_core = ARY }
+			1274 = { add_core = ARY }
+			1282 = { add_core = ARY }
+			1243 = { add_core = ARY }
+			1245 = { add_core = ARY }
+			1246 = { add_core = ARY }
+			add_accepted_culture = kanauji
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				militancy = 1
+				consciousness = 2
+			}
+			set_country_flag = aryans_kanauji
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ARY_embrace_east = {
+		picture = honorary_aryan
+		potential = {
+			tag = ARY
+			has_country_flag = aryan_decisions
+			NOT = { has_country_flag = aryans_east }
+			any_owned_province = { culture = bihari }
+			any_owned_province = { culture = oriya }
+			any_owned_province = { culture = assamese }
+		}
+		
+		allow = {
+			prestige = 80
+			civilization_progress = 0.5
+		}
+		
+		effect = {
+			add_accepted_culture = bihari
+			BIH = { all_core = { add_core = THIS } }
+			add_accepted_culture = oriya
+			ORI = { all_core = { add_core = THIS } }
+			add_accepted_culture = assamese
+			ASM = { all_core = { add_core = THIS } }
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				militancy = 3
+				consciousness = 3
+			}
+			set_country_flag = aryans_east
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ARY_embrace_kanaujitest = {
+		picture = honorary_aryan
+		potential = {
+			tag = ARY
+			has_country_flag = aryan_decisions
+			NOT = { has_country_flag = aryans_kanauji }
+			any_owned_province = { culture = kanauji }
+		}
+		
+		allow = {
+			enlightenment_thought = 1
+			malthusian_thought = 1
+		}
+		
+		effect = {
+			1273 = { add_core = ARY }
+			1274 = { add_core = ARY }
+			1282 = { add_core = ARY }
+			1243 = { add_core = ARY }
+			1245 = { add_core = ARY }
+			1246 = { add_core = ARY }
+			add_accepted_culture = kanauji
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				militancy = 1
+				consciousness = 2
+			}
+			set_country_flag = aryans_kanauji
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	dravidian_conquest = {
+		picture = south_india
+		potential = {
+			NOT = { has_global_flag = dravidian_conquest }
+			NOT = { has_country_flag = dravidian_conquest }
+			tag = ARY
+		}
+		
+		allow = {
+			civilized = yes
+		}
+		
+		effect = {
+			badboy = 15
+			set_country_flag = dravidian_conquest
+			set_global_flag = dravidian_conquest
+			
+			random_country = {
+				limit = {
+					exists = yes
+					tag = KRN
+				}
+				add_casus_belli = {
+					target = THIS
+					type = conquest
+					months = 100
+				}
+			}
+			
+			random_country = {
+				limit = {
+					exists = yes
+					tag = TRA
+				}
+				add_casus_belli = {
+					target = THIS
+					type = conquest
+					months = 100
+				}
+			}
+			
+			random_country = {
+				limit = {
+					exists = yes
+					tag = MYS
+				}
+				add_casus_belli = {
+					target = THIS
+					type = conquest
+					months = 100
+				}
+			}
+			
+			random_country = {
+				limit = {
+					exists = yes
+					tag = BAS
+				}
+				add_casus_belli = {
+					target = THIS
+					type = conquest
+					months = 100
+				}
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1 
+			modifier = { factor = 0 badboy = 0.8 }
+		}
+	}
+}

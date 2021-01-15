@@ -1,0 +1,7 @@
+owner = ABO
+controller = ABO
+add_core = ABO
+add_core = AST
+trade_goods = wool
+terrain = semidesert
+life_rating = 20

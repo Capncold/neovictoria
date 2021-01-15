@@ -1,0 +1,5 @@
+owner = TRC
+controller = TRC
+add_core = TRC
+trade_goods = grain
+life_rating = 35

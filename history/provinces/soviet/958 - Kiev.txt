@@ -1,0 +1,13 @@
+owner = NEO
+controller = NEO
+add_core = NEO
+add_core = RUS
+add_core = UKR
+trade_goods = grain
+life_rating = 40
+terrain = farmlands
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}

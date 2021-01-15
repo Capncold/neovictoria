@@ -1,0 +1,228 @@
+;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+NEO;Pan-European Cyberstate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NEO_ADJ;European;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NEO_liberal;Unitarians;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AZT_conservative;Tenochtitlan Faction;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AZT_liberal;Tlacopan Faction;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AZT_reactionary;Texcoco Faction;Panslavic;Panslawisten;;;;;;;;;;;;x;;;;;;;;;;;;;;
+NEO_conservative;Federalists;;;;;;;;;;;;;;;;;;;;;;x;;;;
+URA_conservative;Republican Party;Slavophile;Slawophile;;;;;;;;;;;;x;;;;;;;;;;;;;;
+URA_liberal;Detente Coalition;Westerniser;Westler;;;;;;;;;;;;x;;;;;;;;;;;;;;
+URA_communist;Social Democratic;Social-démocrate;Social Democratic;;;;;;;;;;;;x;;;;;;;;;;;;;;
+URA_socialist;Menshevik;Menshevik;Menschewiki;;;;;;;;;;;;x;;;;;;;;;;;;;;
+URA_reactionary;Warren Loyalists;Panslavic;Panslawisten;;;;;;;;;;;;x;;;;;;;;;;;;;;
+URA_conservative_2;Reformed Republicans;Octobristes;Octobristen;;;;;;;;;;;;x;;;;;;;;;;;;;;
+URA_anarcho_liberal;Radicals;Radicaux;Radikale;;;;;;;;;;;;x;;;;;;;;;;;;;;
+URA_fascist;Fascists;Fascistes;Faschisten;;;;;;;;;;;;x;;;;;;;;;;;;;;
+GOP_liberal;Proto-Communists;Westerniser;Westler;;;;;;;;;;;;x;;;;;;;;;;;;;;
+VAT_conservative;United Russia;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CTG;Carthage;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CTG_ADJ;Punic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KUS;Kush;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KUS_ADJ;Kushite;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NCA;NeoCairo;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NCA_ADJ;NeoCairene;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NRM;Parkour Principality;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NRM_ADJ;Parkour;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PER;Parthia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PER_ADJ;Parthian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PER_absolute_monarchy;Parthia;;;;;;;;;;;;;x
+PER_absolute_monarchy_ADJ;Parthian;;;;;;;;;;;;;x
+PER_prussian_constitutionalism;Parthia;;;;;;;;;;;;;x
+PER_prussian_constitutionalism_ADJ;Parthian;;;;;;;;;;;;;x
+HDJ;Kaaba Directorate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HDJ_ADJ;Directorate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HDJ_absolute_monarchy;Kaaba Directorate;;;;;;;;;;;;;x
+HDJ_absolute_monarchy_ADJ;Directorate;;;;;;;;;;;;;x
+HDJ_prussian_constitutionalism;Kaaba Directorate;;;;;;;;;;;;;x
+HDJ_prussian_constitutionalism_ADJ;Directorate;;;;;;;;;;;;;x
+SIB;Cyberia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SIB_ADJ;Cyberian;;;;;;;;;;;;;;;;;;;;;;;x;;;
+URA;Earl Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+URA_ADJ;Earl;;;;;;;;;;;;;;;;;;;;;;;x;;;
+URA_absolute_monarchy;Earl State;;;;;;;;;;;;;x
+URA_prussian_constitutionalism;Earl State;;;;;;;;;;;;;x
+URA_hms_government;Earl State;;;;;;;;;;;;;x
+URA_democracy;Earl Free State;;;;;;;;;;;;;x
+URA_proletarian_dictatorship;Earl People's Republic;;;;;;;;;;;;;x
+URA_ADJ;Ural;;;;;;;;;;;;;x
+INI;Greater Inuit Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+INI_ADJ;Inuit;;;;;;;;;;;;;;;;;;;;;;;x;;;
+ARY;Aryan Nation;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ARY_ADJ;Aryan;;;;;;;;;;;;;;;;;;;;;;;x;;;
+BNG;East Pakistan;;;;;;;;;;;;x
+BNG_ADJ;East Pakistani;;;;;;;;;;;;x
+BHU_absolute_monarchy;Thunder Dragon Empire;;;;;;;;;;;;;x
+BHU_absolute_monarchy_ADJ;Thunder Dragon;;;;;;;;;;;;;x
+BHU_prussian_constitutionalism;Thunder Dragon Empire;;;;;;;;;;;;;x
+BHU_prussian_constitutionalism_ADJ;Thunder Dragon;;;;;;;;;;;;;x
+CAM_absolute_monarchy;Kramer Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+CAM_absolute_monarchy_ADJ;Kramer;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+CAM_prussian_constitutionalism;Kramer Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+CAM_prussian_constitutionalism_ADJ;Kramer;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+CAM_hms_government;Krambodia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+CAM_hms_government_ADJ;Kramer;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+BUR;Burmyanmar;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BUR_ADJ;Burmyanmar;;;;;;;;;;;;;;;;;;;;;;;x;;;
+PAK;Western East Pakistan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PAK_ADJ;Western East Pakistani;;;;;;;;;;;;;;;;;;;;;;;x;;;
+MGL;Finno-Mongol Khanate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MGL_ADJ;Finno-Mongol;;;;;;;;;;;;;;;;;;;;;;;x;;;
+CHA;Champa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHA_ADJ;Cham;;;;;;;;;;;;;;;;;;;;;;;x;;;
+DAI;Unfortunate Son;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DAI_ADJ;Unfortunate;;;;;;;;;;;;;;;;;;;;;;;x;;;
+AIN;Ainu;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIN_ADJ;Ainu;;;;;;;;;;;;;;;;;;;;;;;x;;;
+AIN_absolute_monarchy;Ainu Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+AIN_prussian_constitutionalism;Ainu Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+AIN_hms_government;Ainu Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+VIC;Vichy France;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+VIC_ADJ;Vichy;;;;;;;;;;;;;;;;;;;;;;;x;;;
+MOR;Fez Ethnostate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MOR_ADJ;Fez;;;;;;;;;;;;;;;;;;;;;;;x;;;
+BAC;Bactria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BAC_ADJ;Bactrian;;;;;;;;;;;;;;;;;;;;;;;x;;;
+LON;London;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LON_ADJ;London;;;;;;;;;;;;;;;;;;;;;;;x;;;
+VIN;Viceroyalty of Vincent;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+VIN_ADJ;Royal;;;;;;;;;;;;;;;;;;;;;;;x;;;
+MLT_theocracy;Knights Hospitaller;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+MLT_theocracy_ADJ;Knight;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+RPL_absolute_monarchy;Viceroyalty of Rupert;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+RPL_absolute_monarchy_ADJ;Rupert;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+SAF_absolute_monarchy;Viceroyalty of The Cape;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+SAF_absolute_monarchy_ADJ;Royal;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+AST_absolute_monarchy;Viceroyalty of Melbourne;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+AST_absolute_monarchy_ADJ;Royal;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+NZL_absolute_monarchy;Viceroyalty of Zealand;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+NZL_absolute_monarchy_ADJ;Royal;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+BUF;Buffalo;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BUF_ADJ;Buffalo;;;;;;;;;;;;;;;;;;;;;;;x;;;
+BUF_absolute_monarchy;Buffalo Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+BUF_prussian_constitutionalism;Buffalo Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+BUF_hms_government;Buffalo Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+SRF;Net Surfers;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SRF_ADJ;Surfer;;;;;;;;;;;;;;;;;;;;;;;x;;;
+BYT;Bytetown;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BYT_ADJ;Byte;;;;;;;;;;;;;;;;;;;;;;;x;;;
+WAS;Washington;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WAS_ADJ;Washington;;;;;;;;;;;;;;;;;;;;;;;x;;;
+JEF;Jeffersonia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+JEF_ADJ;Jeffersonian;;;;;;;;;;;;;;;;;;;;;;;x;;;
+FRN;Nork Datahub;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FRN_ADJ;Nork;;;;;;;;;;;;;;;;;;;;;;;x;;;
+FRN_absolute_monarchy;Franklin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+FRN_absolute_monarchy_ADJ;Franklin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+FRN_prussian_constitutionalism;Franklin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+FRN_prussian_constitutionalism_ADJ;Franklin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+FRN_hms_government;Franklin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+FRN_hms_government_ADJ;Franklin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+CRN;C:arolina;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+CRN_ADJ;C:arolina;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+ALA;Bama Aggregation;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+ALA_ADJ;Bama;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+FLO;Flow Rider Khaganate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+FLO_ADJ;Flow Rider;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+SND;Greater Sandusky Reich;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+SND_ADJ;Sandusky;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+SPR;Springfield Technocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+SPR_ADJ;Springfield;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+NEE;Neo Egyptian Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+NEE_ADJ;Neo Egyptian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+GLK;Great Lake Federation;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+GLK_ADJ;Great Lake;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+GLK_absolute_monarchy;Great Lake Kingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+GLK_prussian_constitutionalism;Great Lake Oligarchy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+GLK_hms_government;Great Lakes;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+NLB;New Liberia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+NLB_ADJ;New Liberian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+HAD;Haida Conglomerate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+HAD_ADJ;Haida;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+MTC;Iron Confederacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+MTC_ADJ;Iron;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+DAK;Dakota Webluddites;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+DAK_ADJ;Dakota;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+CHE;Cher-OKE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+CHE_ADJ;Cher-OKE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+DES;Mormon Hive Fleet;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+DES_ADJ;Mormon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+TEX;Mega Houston;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+TEX_ADJ;Mega Houston;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+KFC;Knights of the Four Corners;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+KFC_ADJ;Knight;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+TEP;Tepehuan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+TEP_ADJ;Tepehuan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+HAU;Huasteca;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+HAU_ADJ;Huasteca;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+TRC;Tarascan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+TRC_ADJ;Tarascan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+AZT;AzTech Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+AZT_ADJ;AzTech;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+MAY;Mayapan 2.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+MAY_ADJ;Mayan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+DVD;David Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+DVD_ADJ;David;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+MSQ;Mosquito Khanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+MSQ_ADJ;Mosquito;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+PIR;The Pirate Bay;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+PIR_ADJ;Pirate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+DOM;Herspaniola;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+HAI_absolute_monarchy;Hay-T;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+HAI_prussian_constitutionalism;Hay-T;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+HAI_hms_government;Hay-T;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+VNZ;VenezEULA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+JAM_absolute_monarchy;Badman Barony;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+JAM_absolute_monarchy_ADJ;Badman;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+JAM_prussian_constitutionalism;Badman Barony;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+JAM_prussian_constitutionalism_ADJ;Badman;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+JAM_hms_government;Badman Barony;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+JAM_hms_government_ADJ;Badman;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+CLM;:bia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+ECU;E-cuador;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+BRZ;BraziLua;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+BRZ_monarchy;Empire of BraziLua;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+AMA;Amazonian WebLuddites;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+AMA_ADJ;Amazonian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+URU_monarchy;Piranha Empire;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+URU_monarchy_ADJ;Piranha;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+ARC_democracy;Transandean Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+ARC_presidential_dictatorship;Transandean Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+PRG_absolute_monarchy;Guarani Hyperkingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+PRG_absolute_monarchy_ADJ;Guarani;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+PRG_prussian_constitutionalism;Guarani Hyperkingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+PRG_prussian_constitutionalism_ADJ;Guarani;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+PRG_hms_government;Guarani Hyperkingdom;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+PRG_hms_government_ADJ;Guarani;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+URU_absolute_monarchy;Piranha Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+URU_absolute_monarchy_ADJ;Piranha;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+URU_prussian_constitutionalism;Piranha Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+URU_prussian_constitutionalism_ADJ;Piranha;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+URU_hms_government;Piranha Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+URU_hms_government_ADJ;Piranha;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+GUY_absolute_monarchy;Guyanese Parkour Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+GUY_prussian_constitutionalism;Guyanese Parkour Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+GUY_hms_government;Guyanese Parkour Sultanate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+PBC_absolute_monarchy;Incan Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+PBC_absolute_monarchy_ADJ;Incan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+PBC_prussian_constitutionalism;Incan Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+PBC_prussian_constitutionalism_ADJ;Incan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+PBC_hms_government;Inca Federation;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+PBC_hms_government_ADJ;Incan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+PBC_democracy;Cusco Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
+PBC_presidential_dictatorship;Cusco Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
+YUN;The Yunnan-Sichuan Cooperative;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+YUN_ADJ;Yunnan-Sichuan;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+CNT;Techno-Canton;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+CNT_ADJ;Cantonese;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+JAP_absolute_monarchy;NEOTOKYO;;;;;;;;;;;x
+MHP;Mahapajit Empire;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+MHP_ADJ;Mahapajit;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+ABO;Aboriginal WebLuddites;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+ABO_ADJ;Aboriginal;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+GOP;Gopnik Commune;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+GOP_ADJ;Gopnik;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+URL;URL Republic;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+URL_ADJ;URL;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+VAT;Vatnik Confederacy;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+VAT_ADJ;Vatnik;;;;;;;;;;;;;;;;;;;;;;x;;;;;;

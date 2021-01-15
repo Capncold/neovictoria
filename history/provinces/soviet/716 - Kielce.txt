@@ -1,0 +1,8 @@
+owner = NEO
+controller = NEO
+add_core = NEO
+add_core = CPL
+add_core = POL
+trade_goods = coal
+life_rating = 35
+1861.1.1 = { railroad = 3 }

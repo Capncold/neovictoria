@@ -1,0 +1,116 @@
+political_decisions = {
+	build_neostrada = { 
+		picture = neostrada
+		potential = {
+			tag = NEO
+			AND = {
+				owns = 690
+				owns = 706
+				owns = 703
+			}
+			NOT = { has_country_flag = build_neostrada }
+		}
+		allow = {
+			experimental_railroad = 1
+			money = 110000
+		}
+		effect = {
+			set_country_flag = build_neostrada
+			treasury = -100000
+			prestige = 3
+			690 = { infrastructure = 1 }
+			691 = { infrastructure = 1 }
+			694 = { infrastructure = 1 }
+			708 = { infrastructure = 1 }
+			706 = { infrastructure = 1 }
+			713 = { infrastructure = 1 }
+			716 = { infrastructure = 1 }
+			703 = { infrastructure = 1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	brexit_referendum = {
+		picture = brexit
+		potential = {
+			tag = LON
+			NOT = { has_country_flag = brexit }
+		}
+
+		allow = {
+			year = 1837
+			war = no
+			NEO = {
+				war = no
+				neighbour = THIS
+			}
+		}
+
+		effect = {
+			set_country_flag = brexit
+			NEO = { country_event = 88881 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						AND = {
+							year = 1837
+							month = 6
+						}
+						year = 1838
+					}
+				}
+			}
+		}
+	}
+	
+	unite_britain = {
+		picture = unionjack
+		potential = {
+			tag = LON
+			exists = ENG
+		}
+
+		allow = {
+			war = no
+		}
+
+		effect = {
+			prestige = 10
+			300 = { remove_core = NEO }
+			random_country = {
+				limit = {
+					tag = ENG
+					ai = yes
+					THIS = { ai = yes }
+				}
+				inherit = THIS
+				capital = 300
+			}
+			random_country = {
+				limit = {
+					tag = ENG
+					ai = yes
+					THIS = { ai = no }
+				}
+				any_owned = { secede_province = THIS }
+				THIS = {
+					random_owned = {
+						limit = { province_id = 300 }
+						owner = { capital = 300 }
+					}
+					change_tag = ENG
+				}	
+			}
+			relation = { who = NEO value = -200 }
+			leave_alliance = NEO
+		}
+	}
+}

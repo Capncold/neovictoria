@@ -1,0 +1,5 @@
+owner = MHP
+controller = MHP
+add_core = DJA
+trade_goods = tobacco
+life_rating = 35

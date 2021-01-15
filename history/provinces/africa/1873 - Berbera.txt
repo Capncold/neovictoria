@@ -1,0 +1,9 @@
+owner = PIR
+controller = PIR
+add_core = WRL
+add_core = MAJ
+add_core = GEL
+trade_goods = cotton
+terrain = semidesert
+colonial = 2
+life_rating = 31

@@ -1,0 +1,9 @@
+owner = PIR
+controller = PIR
+add_core = MAJ
+add_core = GEL
+add_core = WRL
+trade_goods = cotton
+terrain = savanna
+colonial = 2
+life_rating = 35

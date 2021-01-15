@@ -1,0 +1,6 @@
+owner = TEP
+controller = TEP
+add_core = TEP
+trade_goods = grain
+terrain = montane_forest
+life_rating = 35

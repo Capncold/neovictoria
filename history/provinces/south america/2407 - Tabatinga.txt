@@ -1,0 +1,6 @@
+owner = AMA
+controller = AMA
+add_core = AMA
+add_core = BRZ
+trade_goods = timber
+life_rating = 15

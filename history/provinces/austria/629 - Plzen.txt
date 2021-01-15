@@ -1,0 +1,8 @@
+owner = NEO
+controller = NEO
+add_core = NEO
+add_core = AUS
+add_core = BOH
+add_core = CZH
+trade_goods = coal
+life_rating = 35

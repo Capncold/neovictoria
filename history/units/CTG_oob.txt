@@ -1,0 +1,340 @@
+NEO = {
+	truce_until = 1837.1.1
+	value = -200
+}
+BYZ = {
+	value = 25
+}
+
+VIC = {
+	value = -50
+}
+
+BAB = {
+	value = -25
+}
+
+army = {
+	name = "Sardinian Garrison"
+	
+	location = 765
+	regiment = {
+		name= "1st Irregular"
+		type = irregular
+		home = 1702
+	}
+
+	regiment = {
+		name= "2nd Irregular"
+		type = irregular
+		home = 1702
+	}
+	
+	regiment = {
+		name= "1st Small Elephants"
+		type = cavalry
+		home = 763
+	}
+}
+army = {
+	name = "Syracuse Garrison"
+	
+	location = 764
+	regiment = {
+		name= "1st Irregular"
+		type = irregular
+		home = 1733
+	}
+
+	regiment = {
+		name= "2nd Irregular"
+		type = irregular
+		home = 1731
+	}
+	
+	regiment = {
+		name= "1st Small Elephants"
+		type = cavalry
+		home = 764
+	}
+}
+army = {
+	name = "Carthaginian Army"
+	
+	leader = {
+		name = "Hannibal II"
+		type = land
+		date = 1830.1.1
+		background = school_of_defense
+		personality = clever
+		prestige = 0.3
+	}
+
+	location = 1725
+	regiment = {
+		name= "1st Sacred Band"
+		type = infantry
+		home = 1725
+	}
+
+	regiment = {
+		name= "2nd Sacred Band"
+		type = infantry
+		home = 1725
+	}
+
+	regiment = {
+		name= "3rd Sacred Band"
+		type = infantry
+		home = 1728
+	}
+	
+	regiment = {
+		name= "4th Sacred Band"
+		type = infantry
+		home = 1726
+	}
+	
+	regiment = {
+		name= "5th Sacred Band"
+		type = infantry
+		home = 1730
+	}
+	
+	regiment = {
+		name= "1st Small Elephants"
+		type = cuirassier
+		home = 766
+	}
+	
+	regiment = {
+		name= "2nd Small Elephants"
+		type = cuirassier
+		home = 765
+	}
+	
+	regiment = {
+		name= "1st Slingers"
+		type = artillery
+		home = 473
+	}
+	
+	regiment = {
+		name= "2nd Slingers"
+		type = artillery
+		home = 762
+	}
+}
+
+navy = {
+	name = "Carthaginian Fleet"
+	location = 1725
+	ship = {
+		name= "1st Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "2nd Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "3rd Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "4th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "5th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "6th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "7th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "8th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "9th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "10th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "11th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "12th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "13th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "14th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "15th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "16th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "17th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "18th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "19th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "20th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "21st Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "22nd Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "23rd Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "24th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "25th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "26th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "27th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "28th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "29th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "30th Quinquereme"
+		type = frigate
+	}
+	
+	ship = {
+		name= "31st Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "32nd Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "33rd Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "34th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "35th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "36th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "37th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "38th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "39th Quinquereme"
+		type = frigate
+	}
+
+	ship = {
+		name= "40th Quinquereme"
+		type = frigate
+	}
+}
+
+leader = {
+	name = "Hanno the Navigator"
+	date = 1836.1.1
+	type = sea
+	personality = daring
+	background = adventurer
+	prestige = 0.4
+}

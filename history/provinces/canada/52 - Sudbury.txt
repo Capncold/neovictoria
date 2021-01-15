@@ -1,0 +1,5 @@
+owner = BYT
+controller = BYT
+add_core = BYT
+trade_goods = iron
+life_rating = 30

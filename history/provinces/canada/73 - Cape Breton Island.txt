@@ -1,0 +1,5 @@
+owner = RPL
+controller = RPL
+add_core = MRU
+trade_goods = coal
+life_rating = 30

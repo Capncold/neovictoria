@@ -1,0 +1,174 @@
+political_decisions = {
+	reconquer_cyberia  = {
+		picture = siberia
+		potential = {
+			tag = URA
+			NOT = { has_country_flag = reconquer_cyberia }
+			owns = 1058
+		}
+		
+		allow = {
+			year = 1840
+			#military_score = 10
+		}
+		
+		effect = {
+			badboy = 3
+			set_country_flag = reconquer_cyberia
+			prestige = 2
+			SIB = {
+				all_core = { add_core = URA }
+			}
+		}
+	}
+	
+	reconquer_baikal  = {
+		picture = mongolia
+		potential = {
+			tag = URA
+			has_country_flag = reconquer_cyberia
+			NOT = { has_country_flag = reconquer_baikal }
+			owns = 1058
+		}
+		
+		allow = {
+			owns = 1063
+			owns = 2648
+		}
+		
+		effect = {
+			badboy = 1
+			set_country_flag = reconquer_baikal
+			RUS_1079 = { add_core = URA }
+		}
+	}
+	
+	reconquer_eastberia  = {
+		picture = eastberia
+		potential = {
+			tag = URA
+			has_country_flag = reconquer_baikal
+			NOT = { has_country_flag = reconquer_eastberia }
+			owns = 1063
+			owns = 2648
+		}
+		
+		allow = {
+			owns = 1075
+			owns = 2670
+		}
+		
+		effect = {
+			set_country_flag = reconquer_eastberia
+			KAM = {
+				all_core = { add_core = URA }
+			}
+		}
+	}
+	
+	invoke_constitution = {
+		picture = constitution
+		potential = {
+			tag = URA
+			NOT = { has_country_flag = invoked_constitution }
+		}
+		
+		allow = {
+			RUS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						NOT = { continent = asia }
+						NOT = { empty = no }
+					}
+				}
+			}
+		}
+		
+		effect = {
+			set_country_flag = invoked_constitution
+			prestige = 5
+			add_country_modifier = { name = constitution duration = 1825 }
+			any_pop = {
+				militancy = -2
+				consciousness = 1
+			}
+		}
+	}
+	
+	support_gopniks = {
+		picture = gopnik_revolter
+		potential = {
+			tag = URA
+			GOP = {
+				exists = yes
+				war = yes
+			}
+			NOT = { has_country_flag = supported_gopniks }
+		}
+		
+		allow = {
+			money = 110000
+		}
+		
+		effect = {
+			set_country_flag = supported_gopniks
+			URA = { country_event = 77773 }
+		}
+	}
+	
+	reconquer_eurussia  = {
+		picture = eurussia
+		potential = {
+			tag = URA
+			NOT = { has_country_flag = reconquer_eurussia }
+		}
+		
+		allow = {
+			THIS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						NOT = { empty = no }
+					}
+				}
+			}
+		}
+		
+		effect = {
+			badboy = 5
+			set_country_flag = reconquer_eurussia
+			RUS = {
+				all_core = {
+					add_core = URA 
+				}
+			}
+		}
+	}
+	
+	kill_oswald = {
+		picture = oswald
+		potential = {
+			OR = {
+				tag = URA
+				AND = {
+					tag = RUS
+					has_country_flag = earl_russia
+				}
+			}
+			NOT = { has_country_flag = killed_oswald }
+		}
+		
+		allow = {
+			OR = {
+				139 = { controlled_by = THIS }
+				owns = 139
+			}
+		}
+		
+		effect = {
+			set_country_flag = killed_oswald
+			prestige = 25
+		}
+	}
+}

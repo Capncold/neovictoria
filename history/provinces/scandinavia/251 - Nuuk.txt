@@ -1,0 +1,5 @@
+owner = GRN
+controller = RPL
+add_core = GRN
+trade_goods = fish
+life_rating = 10

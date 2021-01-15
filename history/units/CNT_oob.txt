@@ -1,0 +1,381 @@
+YUN = {
+	value = -50		#relation
+}
+
+QNG = {
+	value = -100		#relation
+}
+
+UYG = {
+	value = -150		#relation
+}
+
+TIB = {
+	value = -100		#relation
+}
+
+MGL = {
+	value = -50		#relation
+}
+
+army = {
+	name = "Army of the West"
+	location = 1522
+	regiment = {
+		name= "1. Home Division"
+		type = irregular
+		home = 1522
+	}
+
+	regiment = {
+		name= "2. Home Division"
+		type = irregular
+		home = 1518
+	}
+
+	regiment = {
+		name= "3. Home Division"
+		type = irregular
+		home = 1549
+	}
+	
+	regiment = {
+		name= "4. Home Division"
+		type = irregular
+		home = 1549
+	}
+	
+	regiment = {
+		name= "5. Home Division"
+		type = irregular
+		home = 1545
+	}
+	
+	regiment = {
+		name= "6. Home Division"
+		type = irregular
+		home = 1545
+	}
+}
+
+army = {
+	name = "Army of the East"
+	location = 1538
+	regiment = {
+		name= "1. Home Division"
+		type = irregular
+		home = 1608
+	}
+
+	regiment = {
+		name= "2. Home Division"
+		type = irregular
+		home = 1608
+	}
+
+	regiment = {
+		name= "3. Home Division"
+		type = irregular
+		home = 1609
+	}
+	
+	regiment = {
+		name= "4. Home Division"
+		type = irregular
+		home = 1604
+	}
+	
+	regiment = {
+		name= "5. Home Division"
+		type = irregular
+		home = 1604
+	}
+	
+	regiment = {
+		name= "6. Home Division"
+		type = irregular
+		home = 1610
+	}
+}
+
+army = {
+	name = "Army of the North"
+	location = 1542
+	regiment = {
+		name= "1. Home Division"
+		type = irregular
+		home = 1550
+	}
+
+	regiment = {
+		name= "2. Home Division"
+		type = irregular
+		home = 1550
+	}
+
+	regiment = {
+		name= "3. Home Division"
+		type = irregular
+		home = 1550
+	}
+	
+	regiment = {
+		name= "4. Home Division"
+		type = irregular
+		home = 1550
+	}
+	
+	regiment = {
+		name= "5. Home Division"
+		type = irregular
+		home = 1550
+	}
+	
+	regiment = {
+		name= "6. Home Division"
+		type = irregular
+		home = 1494
+	}
+	
+	regiment = {
+		name= "7. Home Division"
+		type = irregular
+		home = 1494
+	}
+	
+	regiment = {
+		name= "8. Home Division"
+		type = cavalry
+		home = 1494
+	}
+}
+
+army = {
+	name = "Army of the South"
+	location = 1502
+	regiment = {
+		name= "1. Home Division"
+		type = irregular
+		home = 1493
+	}
+
+	regiment = {
+		name= "2. Home Division"
+		type = irregular
+		home = 1493
+	}
+
+	regiment = {
+		name= "3. Home Division"
+		type = irregular
+		home = 1493
+	}
+	
+	regiment = {
+		name= "4. Home Division"
+		type = irregular
+		home = 1493
+	}
+	
+	regiment = {
+		name= "5. Home Division"
+		type = irregular
+		home = 1493
+	}
+	
+	regiment = {
+		name= "6. Home Division"
+		type = irregular
+		home = 1493
+	}
+}
+
+army = {
+	name = "Mercenary Brigades"
+	location = 1493
+	regiment = {
+		name= "1. Mercenary Division"
+		type = infantry
+		home = 1493
+	}
+
+	regiment = {
+		name= "2. Mercenary Division"
+		type = infantry
+		home = 1493
+	}
+
+	regiment = {
+		name= "3. Mercenary Division"
+		type = infantry
+		home = 1493
+	}
+	
+	regiment = {
+		name= "4. Mercenary Division"
+		type = infantry
+		home = 1493
+	}
+	
+	regiment = {
+		name= "5. Mercenary Division"
+		type = infantry
+		home = 1493
+	}
+	
+	regiment = {
+		name= "6. Mercenary Division"
+		type = infantry
+		home = 1493
+	}
+	
+	regiment = {
+		name= "Foreign Cavalry"
+		type = cuirassier
+		home = 1493
+	}
+	
+	regiment = {
+		name= "Foreign Cavalry"
+		type = hussar
+		home = 1493
+	}
+	
+	regiment = {
+		name= "Foreign Artillery"
+		type = artillery
+		home = 1493
+	}
+	
+	regiment = {
+		name= "Foreign Artillery"
+		type = artillery
+		home = 1493
+	}
+}
+
+navy = {
+	name = "Great Treasure Fleet"
+	location = 1493
+	ship = {
+		name = "Zehai"
+		type = manowar
+	}
+	ship = {
+		name = "Weijing"
+		type = manowar
+	}
+	ship = {
+		name = "Fuxing"
+		type = manowar
+	}
+	ship = {
+		name = "Zhenwei"
+		type = manowar
+	}
+	ship = {
+		name = "Huwei"
+		type = frigate
+	}
+	ship = {
+		name = "Jinou"
+		type = frigate
+	}
+	ship = {
+		name = "Dengyingzhou"
+		type = frigate
+	}
+	ship = {
+		name = "Yuankai"
+		type = frigate
+	}
+	ship = {
+		name = "Yuyuan"
+		type = frigate
+	}
+	ship = {
+		name = "Jingyuan"
+		type = frigate
+	}
+	ship = {
+		name = "Haian"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Chenhang"
+		type = frigate
+	}
+	ship = {
+		name = "Feiyun"
+		type = frigate
+	}
+	ship = {
+		name = "Yangwu"
+		type = frigate
+	}
+	ship = {
+		name = "Ji'an"
+		type = frigate
+	}
+	ship = {
+		name = "Yongbao"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Chenhang"
+		type = frigate
+	}
+	ship = {
+		name = "Jiansheng"
+		type = frigate
+	}
+	ship = {
+		name = "Fusheng"
+		type = frigate
+	}
+	ship = {
+		name = "Yixin"
+		type = frigate
+	}
+	ship = {
+		name = "Henghai"
+		type = frigate
+	}
+}
+
+leader = {
+	name = "Lin Zexu"
+	picture = asian_admiral_1
+	date = 1820.1.1
+	type = sea
+	personality = charismatic
+	background = elderly
+}
+
+leader = {
+	name = "Tanlan the Rich"
+	picture = asian_general_4
+	date = 1835.1.1
+	type = land
+	personality = charismatic
+	background = aristocrat
+}
+
+leader = {
+	name = "Nigel Smith"
+	picture = european_general_29
+	date = 1830.1.1
+	type = land
+	personality = keen
+	background = war_college
+}
+
+leader = {
+	name = "Yang Fang"
+	date = 1820.1.1
+	type = land
+	personality = brash
+	background = school_of_offense
+}

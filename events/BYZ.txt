@@ -1,0 +1,208 @@
+#################################################################
+#																#
+#       		Epic Byzantium Neo Roman Events					#
+#																#
+#################################################################
+
+country_event = {
+
+	id = 1453
+	title = "EVTNAME1453"
+	desc = "EVTDESC1453"
+	picture = "spqr"
+	
+	trigger = {
+		tag = BYZ
+		NOT = { has_country_flag = begin_romanization }
+	}
+	
+	mean_time_to_happen = {	months = 12 }
+	
+	option = {
+		name = "EVT1453OPTA"
+		861 = {
+			remove_core = TUR
+			change_province_name = "Chrysopolis"
+			add_province_modifier = {
+				name = roman_cultural_unity
+				duration = 3650
+			}
+		}
+		862 = {
+			remove_core = TUR
+			change_province_name = "Nicomedia"
+			add_province_modifier = {
+				name = roman_cultural_unity
+				duration = 3650
+			}
+		}
+		863 = {
+			remove_core = TUR
+			change_province_name = "Nicaea"
+			add_province_modifier = {
+				name = roman_cultural_unity
+				duration = 3650
+			}
+		}
+		864 = {
+			remove_core = TUR
+			add_province_modifier = {
+				name = roman_cultural_unity
+				duration = 3650
+			}
+		}
+		865 = {
+			remove_core = TUR
+			add_province_modifier = {
+				name = roman_cultural_unity
+				duration = 3650
+			}
+		}
+		869 = {
+			remove_core = TUR
+			change_province_name = "Smyrna"
+			add_province_modifier = {
+				name = roman_cultural_unity
+				duration = 3650
+			}
+		}
+		870 = {
+			remove_core = TUR
+			add_province_modifier = {
+				name = roman_cultural_unity
+				duration = 3650
+			}
+		}
+		any_pop = { limit = { has_pop_culture = turkish } militancy = 3 }
+		set_country_flag = begin_romanization
+		ai_chance = { factor = 1 }
+	}
+	
+	option = {
+		name = "EVT1453OPTB"
+		set_country_flag = no_romanization
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 1454
+	title = "EVTNAME1454"
+	desc = "EVTDESC1454"
+	picture = "fourthjewishwar"
+
+	trigger = {
+		tag = BYZ
+		owns = 917
+		year = 1840
+		has_country_flag = begin_romanization
+	}
+		
+	mean_time_to_happen = {
+		months = 16
+		
+		modifier = {
+			factor = 0.75
+			
+			war = yes
+		}
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVT1454OPTA"
+		917 = {
+			change_controller = REB
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 365
+			}
+		}
+		919 = {
+			change_controller = REB
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 365
+			}
+		}
+		
+		any_pop = {
+				limit = {
+						has_pop_religion = jewish
+						location = { OR = { province_id = 919 province_id = 916 province_id = 917  } }
+				}
+				
+				consciousness = 6
+				militancy = 8
+		}
+	}
+}
+
+country_event = {
+	id = 1455
+	title = "EVTNAME1455"
+	desc = "EVTDESC1455"
+	picture = "fourthjewishwar"
+
+	trigger = {
+		tag = NCA
+		owns = 1756
+		917 = {
+			controlled_by = REB
+		}
+	}
+		
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVT1455OPTA"
+		BYZ = { country_event = 1456 }
+	}
+	
+	option = {
+		name = "EVT1455OPTA"
+	}
+}
+
+country_event = {
+	id = 1456
+	title = "EVTNAME1456"
+	desc = "EVTDESC1456"
+	picture = "fourthjewishwar"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT1456OPTA"
+		920 = {
+			change_controller = REB
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 365
+			}
+		}
+		921 = {
+			change_controller = REB
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 365
+			}
+		}
+		
+		any_pop = {
+				limit = {
+						has_pop_religion = sunni
+						location = { EGY_921 }
+				}		
+				consciousness = 4
+				militancy = 6
+		}
+	}
+}

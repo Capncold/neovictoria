@@ -1,0 +1,43 @@
+SIB = { value = -200 }
+INI = { value = -100 }
+MGL = { value = -100 }
+NEO = { value = -150 }
+URL = { value = -200 }
+
+army = {
+	name = "Army of Justice"
+	location = 1058
+	regiment = {
+		name= "Freedom Brigade"
+		type = infantry
+		home = 1058
+	}
+	
+	regiment = {
+		name= "Liberty Brigade"
+		type = infantry
+		home = 1058
+	}
+	
+	regiment = {
+		name= "Liberation Brigade"
+		type = infantry
+		home = 1060
+	}
+	
+	regiment = {
+		name= "Peace Brigade"
+		type = cuirassier
+		home = 1058
+	}
+}
+
+leader = {
+	name = "William Douglas"
+	picture = european_general_21
+	date = 1836.1.1
+	type = land
+	background = competent
+	personality = implacable
+	prestige = 0.2
+}

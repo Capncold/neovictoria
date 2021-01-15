@@ -1,0 +1,351 @@
+######################################################
+### EPIC ARYANIUMS GROSSIUMS AAAAAAAAAAAA MY WILLY ###
+######################################################
+
+country_event = {
+	id = 1487
+	title = "EVTNAME1487"
+	desc = "EVTDESC1487"
+	picture = "anti_anglo"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ARY
+		owns = 1297
+		owns = 1251
+		year = 1838
+	}
+	
+	mean_time_to_happen = { months = 6 }
+
+	
+	option = {
+		name = "EVTOPTA1487"
+		any_pop = { 
+			limit = { has_pop_culture = british } 
+			reduce_pop = 0.5
+			move_pop = 1321 
+		}
+		ARY = {
+			change_variable = {
+				which = extreme_support
+				value = 1
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB1487"
+		prestige = -2
+		ARY = {
+			change_variable = {
+				which = liberal_support
+				value = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 1488
+	title = "EVTNAME1488"
+	desc = "EVTDESC1488"
+	picture = "haldar_death"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ARY
+		NOT = { has_global_flag = halder_death }
+		year = 1862
+	}
+	
+	mean_time_to_happen = { months = 12 }
+
+	
+	option = {
+		name = "EVTOPTA1488"
+		set_global_flag = halder_death
+		add_country_modifier = { name = national_confusion duration = 730 }
+		any_pop = { 
+			limit = { has_pop_religion = hindu } 
+			militancy = 2
+			consciousness = 5
+		}
+		any_pop = { 
+			limit = { has_pop_religion = sunni } 
+			militancy = -5
+		}
+	}
+}
+
+country_event = {
+	id = 1489
+	title = "EVTNAME1489"
+	desc = "EVTDESC1489"
+	picture = "kkk"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ARY
+		year = 1845
+	}
+	
+	mean_time_to_happen = { months = 6 }
+
+	
+	option = {
+		name = "EVTOPTA1489"
+		add_country_modifier = {
+			name = "kkk"
+			duration = -1
+		}
+		any_pop = { 
+			limit = { has_pop_religion = sunni } 
+			militancy = 3
+		}
+		ARY = {
+			change_variable = {
+				which = extreme_support
+				value = 1
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB1489"
+		prestige = -3
+		any_pop = { 
+			limit = { has_pop_religion = sunni } 
+			militancy = -1
+		}
+		ARY = {
+			change_variable = {
+				which = liberal_support
+				value = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 1490
+	title = "EVTNAME1490"
+	desc = "EVTDESC1490"
+	picture = "swastika"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ARY
+		year = 1836
+	}
+	
+	mean_time_to_happen = { days = 1 }
+
+	
+	option = {
+		name = "EVTOPTA1490"
+		ARY = {
+			set_variable = {
+				which = liberal_support
+				value = 0
+			}
+			set_variable = {
+				which = extreme_support
+				value = 0
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 1491
+	title = "EVTNAME1491"
+	desc = "EVTDESC1491"
+	picture = "aryan_sikhs"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ARY
+		year = 1853
+	}
+	
+	mean_time_to_happen = { months = 6 }
+
+	
+	option = {
+		name = "EVTOPTA1491"
+		any_owned = {
+			limit = {
+				is_core = PNJ
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1095
+			}
+			ARY = {
+				change_variable = {
+					which = extreme_support
+					value = 1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1491"
+		ARY = {
+			change_variable = {
+				which = liberal_support
+				value = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 1492
+	title = "EVTNAME1492"
+	desc = "EVTDESC1492"
+	picture = "liberal_victory"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ARY
+		ARY = {
+			exists = yes
+			war = no
+			OR = { 
+				check_variable = {
+					which = liberal_support
+					value = 2
+				}
+				check_variable = {
+					which = liberal_support
+					value = 3
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 10 }
+
+	
+	option = {
+		name = "EVTOPTA1492"
+	}
+}
+
+country_event = {
+	id = 1493
+	title = "EVTNAME1492"
+	desc = "EVTDESC1492"
+	picture = "extreme_victory"
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ARY
+		ARY = {
+			exists = yes
+			war = no
+			OR = { 
+				check_variable = {
+					which = extreme_support
+					value = 2
+				}
+				check_variable = {
+					which = extreme_support
+					value = 3
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 10 }
+
+	
+	option = {
+		name = "EVTOPTA1493"
+	}
+}
+
+country_event = {
+	id = 1494
+	title = "EVTNAME1494"
+	desc = "EVTDESC1494"
+	picture = "bengal"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ARY
+		war = no
+		year = 1848
+		BNG = { exists = yes ai = yes }
+	}
+			
+	mean_time_to_happen = { months = 12 }
+	
+	option = {
+		name = "EVTOPTA1494"
+		badboy = 5
+		relation = { who = BNG value = -400 }
+		casus_belli ={
+			target = BNG
+			type = conquest
+			months = 50	
+		}
+		ai_chance = {
+			factor = 0.01
+			modifier = { factor = 100 war = yes }
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB1494"
+		badboy = 5
+		relation = { who = BNG value = -400 }
+		war = {
+			target = BNG
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_all_cores }
+			call_ally = no
+		}
+		ai_chance = {
+			factor = 0.99
+			modifier = { factor = 0 war = yes }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB1494"
+		badboy = -1
+		prestige = -4
+	}
+}
+
+country_event = {
+	id = 1495
+	title = "EVTNAME1495"
+	desc = "EVTDESC1495"
+	picture = "waco"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ARY
+	}
+			
+	mean_time_to_happen = { months = 6 }
+	
+	option = {
+		name = "EVTOPTA1495"
+		kill_leader = 95
+	}
+}

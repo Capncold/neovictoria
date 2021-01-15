@@ -1,0 +1,6 @@
+owner = DVD
+controller = DVD
+add_core = DVD
+add_core = PNM
+trade_goods = coffee
+life_rating = 31

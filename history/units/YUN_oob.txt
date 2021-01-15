@@ -1,0 +1,297 @@
+CNT = {
+	value = -100		#relation
+}
+
+QNG = {
+	value = -150		#relation
+}
+
+UYG = {
+	value = -200		#relation
+}
+
+TIB = {
+	value = -150		#relation
+}
+
+army = {
+	name = "Liberation Army"
+	location = 1578
+	regiment = {
+		name= "Royal Guards"
+		type = infantry
+		home = 1584
+	}
+	
+	regiment = {
+		name= "1. Peasant Brigade"
+		type = irregular
+		home = 1584
+	}
+
+	regiment = {
+		name= "2. Peasant Brigade"
+		type = irregular
+		home = 1582
+	}
+
+	regiment = {
+		name= "3. Peasant Brigade"
+		type = irregular
+		home = 1582
+	}
+	
+	regiment = {
+		name= "4. Peasant Brigade"
+		type = irregular
+		home = 1582
+	}
+	
+	regiment = {
+		name= "5. Peasant Brigade"
+		type = irregular
+		home = 1580
+	}
+	
+	regiment = {
+		name= "6. Peasant Brigade"
+		type = irregular
+		home = 1580
+	}
+	
+	regiment = {
+		name= "7. Liberation Cavalry"
+		type = cavalry
+		home = 1580
+	}
+	
+	regiment = {
+		name= "8. Liberation Cavalry"
+		type = cavalry
+		home = 1578
+	}
+	
+	regiment = {
+		name= "Fortress Buster"
+		type = artillery
+		home = 1578
+	}
+}
+
+army = {
+	name = "Southern Army"
+	location = 1505
+	regiment = {
+		name= "1. Peasant Brigade"
+		type = irregular
+		home = 1505
+	}
+
+	regiment = {
+		name= "2. Peasant Brigade"
+		type = irregular
+		home = 1506
+	}
+
+	regiment = {
+		name= "3. Peasant Brigade"
+		type = irregular
+		home = 1506
+	}
+	
+	regiment = {
+		name= "4. Peasant Brigade"
+		type = irregular
+		home = 1506
+	}
+	
+	regiment = {
+		name= "5. Peasant Brigade"
+		type = irregular
+		home = 1603
+	}
+	
+	regiment = {
+		name= "6. Peasant Brigade"
+		type = irregular
+		home = 1603
+	}
+	
+	regiment = {
+		name= "7. Peasant Brigade"
+		type = irregular
+		home = 1601
+	}
+	
+	regiment = {
+		name= "8. Liberation Cavalry"
+		type = cavalry
+		home = 1601
+	}
+}
+
+army = {
+	name = "Northern Army"
+	location = 2062
+	regiment = {
+		name= "1. Peasant Brigade"
+		type = irregular
+		home = 2062
+	}
+
+	regiment = {
+		name= "2. Peasant Brigade"
+		type = irregular
+		home = 2062
+	}
+
+	regiment = {
+		name= "3. Peasant Brigade"
+		type = irregular
+		home = 1492
+	}
+	
+	regiment = {
+		name= "4. Peasant Brigade"
+		type = irregular
+		home = 1492
+	}
+	
+	regiment = {
+		name= "5. Peasant Brigade"
+		type = irregular
+		home = 1490
+	}
+	
+	regiment = {
+		name= "6. Peasant Brigade"
+		type = irregular
+		home = 1490
+	}
+	
+	regiment = {
+		name= "7. Peasant Brigade"
+		type = irregular
+		home = 1490
+	}
+	
+	regiment = {
+		name= "8. Liberation Cavalry"
+		type = cavalry
+		home = 1491
+	}
+}
+
+army = {
+	name = "Central Army"
+	location = 1577
+	regiment = {
+		name= "1. Peasant Brigade"
+		type = irregular
+		home = 1577
+	}
+
+	regiment = {
+		name= "2. Peasant Brigade"
+		type = irregular
+		home = 1577
+	}
+
+	regiment = {
+		name= "3. Peasant Brigade"
+		type = irregular
+		home = 1583
+	}
+	
+	regiment = {
+		name= "4. Peasant Brigade"
+		type = irregular
+		home = 1583
+	}
+	
+	regiment = {
+		name= "5. Peasant Brigade"
+		type = irregular
+		home = 1583
+	}
+	
+	regiment = {
+		name= "6. Peasant Brigade"
+		type = irregular
+		home = 1579
+	}
+	
+	regiment = {
+		name= "7. Peasant Brigade"
+		type = irregular
+		home = 1579
+	}
+	
+	regiment = {
+		name= "8. Liberation Cavalry"
+		type = cavalry
+		home = 1579
+	}
+}
+
+army = {
+	name = "Eastern Army"
+	location = 1519
+	regiment = {
+		name= "1. Peasant Brigade"
+		type = irregular
+		home = 1579
+	}
+
+	regiment = {
+		name= "2. Peasant Brigade"
+		type = irregular
+		home = 1579
+	}
+
+	regiment = {
+		name= "3. Peasant Brigade"
+		type = irregular
+		home = 1579
+	}
+	
+	regiment = {
+		name= "4. Peasant Brigade"
+		type = irregular
+		home = 1579
+	}
+	
+	regiment = {
+		name= "5. Peasant Brigade"
+		type = irregular
+		home = 1579
+	}
+	
+	regiment = {
+		name= "6. Peasant Brigade"
+		type = irregular
+		home = 1579
+	}
+	
+	regiment = {
+		name= "7. Peasant Brigade"
+		type = irregular
+		home = 1579
+	}
+	
+	regiment = {
+		name= "8. Liberation Cavalry"
+		type = cavalry
+		home = 1579
+	}
+}
+
+leader = {
+	name = "Zhu Wangluo"
+	picture = asian_general_0
+	date = 1835.1.1
+	type = land
+	personality = gallant
+	background = nationalist
+}
+

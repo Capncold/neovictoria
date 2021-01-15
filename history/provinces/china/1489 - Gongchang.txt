@@ -1,0 +1,6 @@
+owner = YUN
+controller = YUN
+add_core = YUN
+add_core = CHI
+trade_goods = timber
+life_rating = 32

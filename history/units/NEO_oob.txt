@@ -1,0 +1,287 @@
+BYZ = {
+	value = -100
+}
+
+CTG = {
+	value = -100
+}
+
+URA = {
+	value = -100
+}
+
+URL = {
+	value = -100
+}
+
+army = {
+	name = "Imperial Army of Iberia"
+	location = 487
+	regiment = {
+		name= "1. Infantry Brigade"
+		type = infantry
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 521
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 521
+	}
+	
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 487
+	}
+
+	regiment = {
+		name= "1. Artillery Brigade"
+		type = artillery
+		home = 487
+	}
+}
+
+army = {
+	name = "Imperial Army of Gallica"
+	location = 425
+	regiment = {
+		name= "1. Infantry Brigade"
+		type = infantry
+		home = 425
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 425
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 438
+	}
+	
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 408
+	}
+
+	regiment = {
+		name= "1. Artillery Brigade"
+		type = artillery
+		home = 428
+	}
+}
+
+army = {
+	name = "Imperial Army of Britannia"
+	location = 281
+	regiment = {
+		name= "1. Infantry Brigade"
+		type = infantry
+		home = 281
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 278
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 278
+	}
+	
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 278
+	}
+
+	regiment = {
+		name= "1. Artillery Brigade"
+		type = artillery
+		home = 273
+	}
+}
+
+army = {
+	name = "Imperial Army of Germania"
+	location = 549
+	regiment = {
+		name= "1. Infantry Brigade"
+		type = infantry
+		home = 549
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 549
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 695
+	}
+	
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 2695
+	}
+
+	regiment = {
+		name= "1. Artillery Brigade"
+		type = artillery
+		home = 695
+	}
+}
+
+army = {
+	name = "Imperial Army of Ruthenia"
+	location = 1008
+	regiment = {
+		name= "1. Infantry Brigade"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 1010
+	}
+	
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 1010
+	}
+
+	regiment = {
+		name= "1. Artillery Brigade"
+		type = artillery
+		home = 1010
+	}
+}
+
+army = {
+	name = "Imperial Army of Lechia"
+	location = 706
+	regiment = {
+		name= "1. Infantry Brigade"
+		type = infantry
+		home = 706
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 703
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 714
+	}
+	
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 704
+	}
+
+	regiment = {
+		name= "1. Artillery Brigade"
+		type = artillery
+		home = 705
+	}
+}
+
+army = {
+	name = "Imperial Army of Italica"
+	location = 743
+	regiment = {
+		name= "1. Infantry Brigade"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 720
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 726
+	}
+	
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 726
+	}
+
+	regiment = {
+		name= "1. Artillery Brigade"
+		type = artillery
+		home = 729
+	}
+}
+
+army = {
+	name = "Imperial Army of Haemus"
+	location = 860
+	regiment = {
+		name= "1. Infantry Brigade"
+		type = infantry
+		home = 860
+	}
+
+	regiment = {
+		name= "2. Infantry Brigade"
+		type = infantry
+		home = 860
+	}
+
+	regiment = {
+		name= "3. Infantry Brigade"
+		type = infantry
+		home = 860
+	}
+	
+	regiment = {
+		name= "1. Cavalry Brigade"
+		type = cavalry
+		home = 812
+	}
+
+	regiment = {
+		name= "1. Artillery Brigade"
+		type = artillery
+		home = 809
+	}
+}

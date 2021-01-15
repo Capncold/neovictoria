@@ -1,0 +1,178 @@
+country_event = {
+
+	id = 77771
+
+	trigger = {
+		tag = URA
+		has_country_flag = reconquer_eastberia
+		URA = {
+			war_with = INI
+		}
+		1072 = {
+			controlled_by = THIS
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME77771"
+	desc = "EVTDESC77771"
+	picture = "treaty"
+
+	option = {
+		name = "EVTOPTA77771"
+		end_war = INI
+		1072 = { remove_core = INI }
+		INI = {
+			capital = 1
+			any_owned = {
+				limit = {
+					is_core = KAM
+				}
+				secede_province = THIS
+			}	
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB77771"
+		badboy = 1
+		end_war = INI
+		1072 = { remove_core = INI }
+		INI = {
+			any_owned = {
+				secede_province = THIS
+			}	
+		}
+	}
+}
+
+country_event = {
+
+	id = 77772
+
+	trigger = {
+		tag = URA
+		has_country_flag = reconquer_cyberia
+		URA = {
+			war_with = SIB
+		}
+		1063 = {
+			controlled_by = THIS
+		}
+		2648 = {
+			controlled_by = THIS
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME77772"
+	desc = "EVTDESC77772"
+	picture = "conscription_marching"
+
+	option = {
+		name = "EVTOPTA77772"
+		end_war = SIB
+		SIB = {
+			any_owned = {
+				secede_province = THIS
+			}	
+		}
+	}
+}
+
+country_event = {
+
+	id = 77773
+
+	is_triggered_only = yes
+
+	title = "EVTNAME77773"
+	desc = "EVTDESC77773"
+	picture = "Artillery"
+
+	option = {
+		name = "EVTOPTA77773"
+		money = -100000
+		GOP = {
+			country_event = 77774
+		}
+		relation = {
+			who = GOP
+			value = 100
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB77773"
+		relation = {
+			who = GOP
+			value = -50
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+
+	id = 77774
+
+	is_triggered_only = yes
+
+	title = "EVTNAME77774"
+	desc = "EVTDESC77774"
+	picture = "conscription_marching"
+
+	option = {
+		name = "EVTOPTA77774"
+		small_arms = 1000
+		canned_food = 2000
+		artillery = 500
+		liquor = 500
+		ammunition = 1000
+		money = 100000
+	}
+}
+
+country_event = {
+
+	id = 77775
+
+	trigger = {
+		tag = URA
+		NOT = {
+			exists = URL
+		}
+		owns = 1064
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		days = 30
+	}
+
+	title = "EVTNAME77775"
+	desc = "EVTDESC77775"
+	picture = "border_ruffians"
+
+	option = {
+		name = "EVTOPTA77775"
+		prestige = 4
+		all_core = { 
+			limit = { is_core = URA }
+			remove_core = URL
+		}
+	}
+}

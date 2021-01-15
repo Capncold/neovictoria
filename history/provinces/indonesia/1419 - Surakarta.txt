@@ -1,0 +1,6 @@
+owner = MHP
+controller = MHP
+add_core = MHP
+add_core = JAV
+trade_goods = fruit
+life_rating = 35

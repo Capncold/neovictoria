@@ -1,0 +1,12 @@
+owner = NEO
+controller = NEO
+add_core = NEO
+add_core = NOR
+trade_goods = fish
+life_rating = 40
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}
+1861.1.1 = { railroad = 2 }

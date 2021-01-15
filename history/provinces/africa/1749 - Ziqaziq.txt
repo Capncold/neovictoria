@@ -1,0 +1,7 @@
+owner = NCA
+controller = NCA
+add_core = NCA
+add_core = EGY
+trade_goods = cotton
+life_rating = 40
+1861.1.1 = { railroad = 2 }

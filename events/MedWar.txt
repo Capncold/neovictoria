@@ -1,0 +1,442 @@
+#################################################################################################################
+#																												#
+#                       						Mediterranean War												#
+#																												#
+#################################################################################################################
+
+country_event = {
+	id = 66661
+	title = "EVTNAME66661" #The Syracuse League
+	desc = "EVTDESC66661"
+	picture = "carthagebyzantium"
+	
+	trigger = {
+		tag = CTG
+		year = 1845
+		has_global_flag = btc_crash
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { months = 6 } 
+	
+	option = {
+		name = "EVT66661OPTA"
+		relation = { who = BYZ value = 100 }
+		BYZ = { country_event = 66662 }
+		relation = { who = NEO value = -100 }
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "EVT66661OPTB"
+		prestige = -10
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 66662
+	title = "EVTNAME66662"
+	desc = "EVTDESC66662"
+	picture = "carthagebyzantium"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66662OPTA"
+		prestige = 3
+		relation = { who = CTG value = 200 }
+		CTG = { country_event = 66663 }
+		relation = { who = NEO value = -200 }
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "EVT66662OPTB"
+		relation = { who = NEO value = 50 }
+		CTG = { country_event = 66664 }
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 66663
+	title = "EVTNAME66663"
+	desc = "EVTDESC66663"
+	picture = "carthagebyzantium"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66663OPTA"
+		prestige = 3
+		relation = { who = BYZ value = 200 }
+		create_alliance = BYZ
+		set_global_flag = syracuse_league
+	}
+}
+
+country_event = {
+	id = 66664
+	title = "EVTNAME66664"
+	desc = "EVTDESC66664"
+	picture = "carthagebyzantium"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66664OPTA"
+		prestige = -3
+		relation = { who = BYZ value = -50 }
+	}
+}
+
+country_event = {
+	id = 66666
+	title = "EVTNAME66666" 
+	desc = "EVTDESC66666"
+	picture = "treaty"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT66666OPTA"
+		set_global_flag = mediterranean_war
+		war_exhaustion = -10
+		relation = { who = NEO value = -200 }
+		leave_alliance = NEO
+		war = {
+			target = NEO
+			attacker_goal = {
+				casus_belli = acquire_all_cores
+				country = BYZ
+			}
+		}
+		random_country = {
+			limit = {
+				alliance_with = THIS
+				war = no
+			}
+			THIS = {
+				war = {
+					attacker_goal = {
+						casus_belli = call_allies_cb
+					}
+					call_ally = yes
+				}
+			}
+		}
+		any_pop = {
+			limit = { has_pop_culture = greek }
+			militancy = -2
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "EVT66666OPTB"
+		set_global_flag = no_mediterranean_war
+		prestige_factor = -0.4
+		any_pop = {
+			consciousness = 10
+			militancy = 5
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+	
+#Surrender Event
+country_event = {
+	id = 66667
+	title = "EVTNAME66667"
+	desc = "EVTDESC66667"
+	news = yes
+	news_desc_long = "EVTDESC88881"
+	news_desc_medium = "EVTDESC88881"
+	news_desc_short = "EVTDESC88881_NEWS_SHORT"
+	major = yes
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66667OPTA"
+		set_global_flag = mediterranean_war_won
+		war_exhaustion = -50
+		end_war = BYZ
+		end_war = CTG
+		end_war = BAB
+		end_war = NCA
+		end_war = HAI
+		any_owned = {
+			limit = { 
+				is_core = BYZ
+			}
+			remove_core = NEO
+			secede_province = BYZ
+		}	
+		any_owned = {
+			limit = {
+				OR = {
+					region = SPA_512
+					region = SPA_513
+					region = SPA_503
+					region = SPA_487
+					province_id = 497
+					province_id = 484
+					province_id = 485
+				}
+			}
+			remove_core = NEO
+			secede_province = CTG
+		}
+		CTG = { country_event = 66672 }
+		SPA = { country_event = 66671 }
+		POR = { country_event = 66670 }
+	}
+}
+
+country_event = {
+	id = 66668
+	title = "EVTNAME66668" 
+	desc = "EVTDESC66668"
+	picture = "carthagebyzantium"
+	
+	trigger = {
+		tag = BYZ
+		year = 1845
+		has_global_flag = btc_crash
+		has_global_flag = syracuse_league
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { months = 1 } 
+	
+	option = {
+		name = "EVT66668OPTA"
+		NEO = { country_event = 66669 }
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "EVT66668OPTB"
+		set_global_flag = no_mediterranean_war
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 66669
+	title = "EVTNAME66669" #Ultimatum Choice
+	desc = "EVTDESC66669"
+	picture = "carthagebyzantium"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66669OPTA"
+		BYZ = { country_event = 66666 }
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "EVT66669OPTB"
+		NEO = { country_event = 66667 }
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = 66670
+	title = "EVTNAME66670"
+	desc = "EVTDESC66670"
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66670OPTA"
+		NEO = {
+			any_owned = {
+				limit = { 
+					is_core = POR
+				}
+				remove_core = NEO
+				secede_province = POR
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 66671
+	title = "EVTNAME66671"
+	desc = "EVTDESC66671"
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66671OPTA"
+		NEO = {
+			any_owned = {
+				limit = { 
+					is_core = SPA
+				}
+				remove_core = NEO
+				secede_province = SPA
+			}
+		}
+		SPA = { capital = 478 }
+	}
+}
+
+country_event = {
+	id = 66672
+	title = "EVTNAME66672"
+	desc = "EVTDESC66672"
+	picture = "Celebration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66672OPTA"
+		prestige = 5
+	}
+}
+
+country_event = {
+	id = 66673
+	title = "EVTNAME66673" 
+	desc = "EVTDESC66673"
+	picture = "treaty"
+	
+	trigger = {
+		tag = CTG
+		has_global_flag = mediterranean_war_won
+		owns = 487
+		owns = 509
+		owns = 503
+		SPA = {
+			owns = 474
+			owns = 495
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { months = 2 } 
+	
+	option = {
+		name = "EVT66673OPTA"
+		SPA = { country_event = 66674 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+	option = {
+		name = "EVT66673OPTB"
+		ai_chance = {
+			factor = 75
+		}
+	}
+}
+
+country_event = {
+	id = 66674
+	title = "EVTNAME66674"
+	desc = "EVTDESC66674"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66674OPTA"
+		prestige = -5
+		relation = { who = CTG value = 50 }
+		CTG = { country_event = 66675 }
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "EVT66674OPTB"
+		relation = { who = CTG value = -50 }
+		CTG = { country_event = 66676 }
+		ai_chance = {
+			factor = 80
+		}
+	}
+}
+
+country_event = {
+	id = 66675
+	title = "EVTNAME66675"
+	desc = "EVTDESC66675"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66675OPTA"
+		prestige = 2
+		any_owned = {
+			limit = {
+				OR = {
+					region = SPA_512
+					region = SPA_487
+					province_id = 497
+					province_id = 484
+					province_id = 485
+					province_id = 514
+				}
+			}
+			secede_province = SPA
+		}
+		CTG = { create_vassal = SPA }
+		SPA = {
+			517 = {
+				add_core = CTG
+				secede_province = CTG
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 66676
+	title = "EVTNAME66676"
+	desc = "EVTDESC66676"
+	picture = "treaty"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT66676OPTA"
+		prestige = -2
+	}
+}

@@ -1,0 +1,26 @@
+political_decisions = {
+	CTG_setup = {
+		potential = {
+			tag = CTG
+			always = no
+		}
+		
+		allow = {
+			tag = CTG
+		}
+		
+		effect = {
+			1725 = { add_province_modifier = { name = enhanced_gpus duration = -1 } }
+			any_pop = {
+				limit = {
+					has_pop_religion = catholic
+				}
+				literacy = 0.09
+			}
+			any_pop = {
+				limit = { OR = { has_pop_culture = north_italian has_pop_culture = french } }
+				literacy = 0.35
+			}
+		}
+	}
+}

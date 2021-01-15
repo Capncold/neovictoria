@@ -1,0 +1,7 @@
+owner = BAB
+controller = BAB
+add_core = BAB
+add_core = KWT
+add_core = IRQ
+trade_goods = fruit
+life_rating = 35

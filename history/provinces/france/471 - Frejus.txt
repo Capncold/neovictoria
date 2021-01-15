@@ -1,0 +1,6 @@
+owner = NEO
+controller = NEO
+add_core = NEO
+add_core = FRA
+trade_goods = silk
+life_rating = 31

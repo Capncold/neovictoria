@@ -1,0 +1,7 @@
+owner = NEO
+controller = NEO
+add_core = NEO
+add_core = RUS
+add_core = KRL
+trade_goods = sulphur
+life_rating = 10

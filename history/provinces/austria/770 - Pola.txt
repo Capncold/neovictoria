@@ -1,0 +1,8 @@
+owner = NEO
+controller = NEO
+add_core = NEO
+add_core = AUS
+add_core = FIU
+add_core = CRO
+trade_goods = grain
+life_rating = 35

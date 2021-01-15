@@ -1,0 +1,306 @@
+NEO = {
+	truce_until = 1838.1.1
+	value = -200
+}
+CTG = {
+	value = 25
+}
+
+NCA = {
+	value = -50
+}
+
+BAB = {
+	value = -25
+}
+
+army = {
+	name = "Armenia Limitanei"
+	
+	leader = {
+		name = "Narses"
+		picture = european_general_16
+		type = land
+		date = 1834.1.1
+		background = generals_aide
+		personality = active_p
+		prestige = 0.1
+	}
+	
+	location = 1090
+	regiment = {
+		name= "1st Limitanei"
+		type = infantry
+		home = 887
+	}
+
+	regiment = {
+		name= "2nd Limitanei"
+		type = infantry
+		home = 890
+	}
+
+	regiment = {
+		name= "3rd Limitanei"
+		type = infantry
+		home = 888
+	}
+	
+	regiment = {
+		name= "1st Equites"
+		type = hussar
+		home = 1090
+	}
+}
+army = {
+	name = "Arabia Limitanei"
+	location = 922
+	regiment = {
+		name= "1st Limitanei"
+		type = infantry
+		home = 2414
+	}
+
+	regiment = {
+		name= "2nd Limitanei"
+		type = infantry
+		home = 892
+	}
+
+	regiment = {
+		name= "3rd Limitanei"
+		type = infantry
+		home = 879
+	}
+	
+	regiment = {
+		name= "1st Equites"
+		type = hussar
+		home = 1735
+	}
+}
+army = {
+	name = "Libertas Legio"
+	
+	leader = {
+		name = "Belisarius"
+		picture = european_general_29
+		type = land
+		date = 1830.1.1
+		background = drillmaster
+		personality = implacable
+		prestige = 0.3
+	}
+
+	location = 869
+	regiment = {
+		name= "1st Comitatenses"
+		type = infantry
+		home = 883
+	}
+
+	regiment = {
+		name= "2nd Comitatenses"
+		type = infantry
+		home = 894
+	}
+
+	regiment = {
+		name= "3rd Comitatenses"
+		type = infantry
+		home = 882
+	}
+	
+	regiment = {
+		name= "4th Comitatenses"
+		type = infantry
+		home = 898
+	}
+	
+	regiment = {
+		name= "5th Comitatenses"
+		type = infantry
+		home = 873
+	}
+	
+	regiment = {
+		name= "1st Equites"
+		type = cuirassier
+		home = 876
+	}
+	
+	regiment = {
+		name= "2nd Equites"
+		type = cuirassier
+		home = 863
+	}
+	
+	regiment = {
+		name= "1st Tormenta"
+		type = artillery
+		home = 861
+	}
+}
+
+navy = {
+	name = "Karabisianoi"
+	location = 855
+	ship = {
+		name= "1st Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "2nd Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "3rd Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "4th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "5th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "6th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "7th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "8th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "9th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "10th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "11th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "12th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "13th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "14th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "15th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "16th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "17th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "18th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "19th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "20th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "21st Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "22nd Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "23rd Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "24th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "25th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "26th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "27th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "28th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "29th Dromon"
+		type = frigate
+	}
+
+	ship = {
+		name= "30th Dromon"
+		type = frigate
+	}
+}
+
+leader = {
+	name = "Himerios"
+	date = 1820.1.1
+	type = sea
+	personality = daring
+	background = expert_raider
+	prestige = 0.8
+}

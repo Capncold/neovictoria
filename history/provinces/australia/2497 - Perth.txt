@@ -1,0 +1,6 @@
+owner = ABO
+controller = ABO
+add_core = ABO
+add_core = AST
+trade_goods = grain
+life_rating = 30

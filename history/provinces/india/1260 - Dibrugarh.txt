@@ -1,0 +1,6 @@
+owner = ARY
+controller = ARY
+add_core = HND
+add_core = ASM
+trade_goods = fruit
+life_rating = 32

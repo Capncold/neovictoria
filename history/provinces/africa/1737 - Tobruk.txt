@@ -1,0 +1,9 @@
+owner = BYZ
+controller = BYZ
+add_core = NCA
+add_core = CYR
+trade_goods = grain
+life_rating = 32
+terrain = semidesert
+#terrain = coastal_desert
+colonial = 2

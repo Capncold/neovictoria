@@ -1,0 +1,5 @@
+owner = AMA
+controller = AMA
+add_core = AMA
+trade_goods = timber
+life_rating = 15

@@ -1,0 +1,44 @@
+political_decisions = {
+
+	treaty_of_smyrna = {
+		picture = eubreak
+		potential = {
+			tag = BYZ
+			exists = yes
+			has_global_flag = mediterranean_war
+			war = yes
+			NOT = { has_country_flag = treaty_of_smyrna }
+		}
+		
+		allow = {
+			war = yes
+			NOT = {
+				869 = {
+					is_capital = yes
+					OR = { 
+						controlled_by = NEO
+						controlled_by = REB
+					}
+					province_control_days = 180
+				}
+				total_amount_of_divisions = 3
+				national_provinces_occupied = 0.50
+			}
+			860 = {
+				OR = { 
+					controlled_by = THIS
+					controlled_by = REB
+					controller = { vassal_of = THIS }
+					controller = { alliance_with = THIS } 
+				}
+				province_control_days = 365
+			}
+		}
+		
+		effect = {
+			set_country_flag = treaty_of_smyrna
+			NEO = { country_event = 66667 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

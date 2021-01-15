@@ -1,0 +1,5 @@
+owner = MHP
+controller = MHP
+add_core = SLW
+trade_goods = fish
+life_rating = 30

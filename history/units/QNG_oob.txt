@@ -1,0 +1,286 @@
+CNT = {
+	value = -200		#relation
+}
+
+YUN = {
+	value = -200		#relation
+}
+
+SIB = {
+	value = 110		#relation
+}
+
+LUA = {
+	value = 300		#relation
+}
+
+MCK = {
+	value = 125		#relation
+}
+
+UYG = {
+	value = -150		#relation
+}
+
+TIB = {
+	value = -100		#relation
+}
+
+MGL = {
+	value = -50		#relation
+}
+
+army = {
+	name = "Emperor's Guard"
+	location = 1616
+	regiment = {
+		name= "1. Eternal Guard"
+		type = guard
+		home = 1617
+	}
+
+	regiment = {
+		name= "2. Eternal Guard"
+		type = guard
+		home = 1617
+	}
+
+	regiment = {
+		name= "3. Eternal Guard"
+		type = guard
+		home = 1617
+	}
+	
+	regiment = {
+		name= "4. Eternal Guard"
+		type = guard
+		home = 1616
+	}
+	
+	regiment = {
+		name= "5. Eternal Guard"
+		type = guard
+		home = 1616
+	}
+	
+	regiment = {
+		name= "6. Eternal Guard"
+		type = guard
+		home = 1616
+	}
+	
+	regiment = {
+		name= "7. Eternal Guard"
+		type = guard
+		home = 1616
+	}
+	
+	regiment = {
+		name= "8. Eternal Guard"
+		type = guard
+		home = 1616
+	}
+	
+	regiment = {
+		name= "9. Eternal Guard"
+		type = guard
+		home = 1616
+	}
+	
+	regiment = {
+		name= "Imperial Firespitter"
+		type = artillery
+		home = 1616
+	}
+}
+
+army = {
+	name = "Bronze Legion"
+	location = 1612
+	regiment = {
+		name= "1. Bronze Banner"
+		type = guard
+		home = 1511
+	}
+
+	regiment = {
+		name= "2. Bronze Banner"
+		type = guard
+		home = 1575
+	}
+
+	regiment = {
+		name= "3. Bronze Banner"
+		type = guard
+		home = 1574
+	}
+	
+	regiment = {
+		name= "4. Bronze Banner"
+		type = guard
+		home = 1573
+	}
+	
+	regiment = {
+		name= "5. Bronze Banner"
+		type = guard
+		home = 1572
+	}
+	
+	regiment = {
+		name= "6. Bronze Banner"
+		type = guard
+		home = 1614
+	}
+	
+	regiment = {
+		name= "7. Bronze Banner"
+		type = guard
+		home = 1618
+	}
+	
+	regiment = {
+		name= "8. Bronze Banner"
+		type = guard
+		home = 1615
+	}
+	
+	regiment = {
+		name= "9. Bronze Banner"
+		type = guard
+		home = 1563
+	}
+	
+	regiment = {
+		name= "Bronze Firespitter"
+		type = artillery
+		home = 1563
+	}
+}
+
+army = {
+	name = "Copper Legion"
+	location = 1571
+	regiment = {
+		name= "1. Copper Banner"
+		type = guard
+		home = 1511
+	}
+
+	regiment = {
+		name= "2. Copper Banner"
+		type = guard
+		home = 1575
+	}
+
+	regiment = {
+		name= "3. Copper Banner"
+		type = guard
+		home = 1574
+	}
+	
+	regiment = {
+		name= "4. Copper Banner"
+		type = guard
+		home = 1573
+	}
+	
+	regiment = {
+		name= "5. Copper Banner"
+		type = guard
+		home = 1572
+	}
+	
+	regiment = {
+		name= "6. Copper Banner"
+		type = guard
+		home = 1614
+	}
+	
+	regiment = {
+		name= "7. Copper Banner"
+		type = guard
+		home = 1618
+	}
+	
+	regiment = {
+		name= "8. Copper Banner"
+		type = guard
+		home = 1615
+	}
+	
+	regiment = {
+		name= "9. Copper Banner"
+		type = guard
+		home = 1563
+	}
+	
+	regiment = {
+		name= "Copper Firespitter"
+		type = artillery
+		home = 1563
+	}
+}
+
+navy = {
+	name = "Imperial Chinese Navy"
+	location = 1569
+	ship = {
+		name = "Caojiang"
+		type = manowar
+	}
+	ship = {
+		name = "Longxiang"
+		type = frigate
+	}
+	ship = {
+		name = "Feiting"
+		type = frigate
+	}
+	ship = {
+		name = "Cedian"
+		type = frigate
+	}
+}
+
+leader = {
+	name = "Guan Tianpei"
+	picture = asian_admiral_4
+	date = 1820.1.1
+	type = sea
+	personality = chivalrous
+	background = elderly
+}
+
+leader = {
+	name = "Daoguang Emperor"
+	picture = asian_general_3
+	date = 1820.1.1
+	type = land
+	personality = inefficient
+	background = aristocrat
+}
+
+leader = {
+	name = "Qishan"
+	date = 1830.1.1
+	type = land
+	personality = gutsy
+	background = old_school
+}
+
+leader = {
+	name = "Yishan"
+	date = 1830.1.1
+	type = land
+	personality = impetuous
+	background = aristocrat
+}
+
+leader = {
+	name = "Yijing"
+	date = 1830.1.1
+	type = land
+	personality = spirited
+	background = aristocrat
+}

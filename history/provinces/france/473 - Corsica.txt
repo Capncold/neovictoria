@@ -1,0 +1,7 @@
+owner = CTG
+controller = CTG
+add_core = CTG
+add_core = FRA
+add_core = CRS
+trade_goods = fish
+life_rating = 34

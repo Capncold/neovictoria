@@ -1,0 +1,6 @@
+owner = MSQ
+controller = MSQ
+add_core = MSQ
+add_core = NIC
+trade_goods = fruit
+life_rating = 31

@@ -1,0 +1,9 @@
+owner = BAB
+controller = BAB
+add_core = BAB
+add_core = HTY
+add_core = IRQ
+add_core = KDS
+add_core = ASY
+trade_goods = sulphur
+life_rating = 35

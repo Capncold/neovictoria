@@ -1,0 +1,241 @@
+BNG = {
+	truce_until = 1840.1.1
+}
+
+leader = {
+	name = "Albharat Sepeer"
+	picture = indian_general_2
+	type = land
+	date = 1836.1.1
+	personality = resourceful
+	background = engineer
+}
+
+leader = {
+	name = "Hartaaman Gouraj"
+	picture = indian_general_1
+	type = land
+	date = 1836.1.1
+	personality = aggressive
+	background = incompetent
+	prestige = 0.1
+}
+
+leader = {
+	name = "Ervit Rumal"
+	picture = indian_general_3
+	type = land
+	date = 1836.1.1
+	personality = daring
+	background = cartographer
+	prestige = 0.3
+}
+
+leader = {
+	name = "Ben Garrison"
+	picture = racist_general_0
+	type = land
+	date = 1836.1.1
+	personality = bigoted
+	background = butcher
+}
+
+#Army
+
+army = {
+	name = "Protection Squadron"
+	
+	leader = {
+		name = "Henraj Hinla"
+		picture = indian_general_0
+		type = land
+		date = 1836.1.1
+		personality = bigoted
+		background = bootlicker
+	}
+
+	location = 1236
+	regiment = {
+		name= "1st Protection Squadron"
+		type = guard
+		home = 1236
+	}
+
+	regiment = {
+		name= "2nd Protection Squadron"
+		type = guard
+		home = 1236
+	}
+
+	regiment = {
+		name= "3rd Protection Squadron"
+		type = guard
+		home = 1237
+	}
+
+	regiment = {
+		name= "1st Protection Artillery"
+		type = artillery
+		home = 1239
+	}
+}
+
+army = {
+	name = "1st Defense Force"
+	location = 1251
+	regiment = {
+		name= "1st Infantry Brigade"
+		type = irregular
+		home = 1251
+	}
+
+	regiment = {
+		name= "2nd Infantry Brigade"
+		type = irregular
+		home = 1251
+	}
+
+	regiment = {
+		name= "3rd Infantry Brigade"
+		type = irregular
+		home = 1251
+	}
+	
+	regiment = {
+		name= "4th Infantry Brigade"
+		type = irregular
+		home = 1252
+	}
+	
+	regiment = {
+		name= "5th Infantry Brigade"
+		type = irregular
+		home = 1252
+	}
+
+	regiment = {
+		name= "1st Protection Cavalry"
+		type = cavalry
+		home = 1253
+	}
+}
+
+army = {
+	name = "2nd Defense Force"
+	location = 1297
+	regiment = {
+		name= "1st Infantry Brigade"
+		type = irregular
+		home = 1297
+	}
+
+	regiment = {
+		name= "2nd Infantry Brigade"
+		type = irregular
+		home = 1297
+	}
+
+	regiment = {
+		name= "3rd Infantry Brigade"
+		type = irregular
+		home = 1297
+	}
+	
+	regiment = {
+		name= "4th Infantry Brigade"
+		type = irregular
+		home = 1299
+	}
+	
+	regiment = {
+		name= "5th Infantry Brigade"
+		type = irregular
+		home = 1300
+	}
+
+	regiment = {
+		name= "1st Protection Cavalry"
+		type = cavalry
+		home = 1301
+	}
+}
+
+army = {
+	name = "3rd Defense Force"
+	location = 1291
+	regiment = {
+		name= "1st Infantry Brigade"
+		type = irregular
+		home = 1291
+	}
+
+	regiment = {
+		name= "2nd Infantry Brigade"
+		type = irregular
+		home = 1292
+	}
+
+	regiment = {
+		name= "3rd Infantry Brigade"
+		type = irregular
+		home = 1293
+	}
+	
+	regiment = {
+		name= "4th Infantry Brigade"
+		type = irregular
+		home = 1294
+	}
+	
+	regiment = {
+		name= "5th Infantry Brigade"
+		type = irregular
+		home = 1295
+	}
+
+	regiment = {
+		name= "1st Protection Cavalry"
+		type = cavalry
+		home = 1295
+	}
+}
+
+army = {
+	name = "4th Defense Force"
+	location = 1233
+	regiment = {
+		name= "1st Infantry Brigade"
+		type = irregular
+		home = 1233
+	}
+
+	regiment = {
+		name= "2nd Infantry Brigade"
+		type = irregular
+		home = 1233
+	}
+
+	regiment = {
+		name= "3rd Infantry Brigade"
+		type = irregular
+		home = 1233
+	}
+	
+	regiment = {
+		name= "4th Infantry Brigade"
+		type = irregular
+		home = 1234
+	}
+	
+	regiment = {
+		name= "5th Infantry Brigade"
+		type = irregular
+		home = 1234
+	}
+
+	regiment = {
+		name= "1st Protection Cavalry"
+		type = cavalry
+		home = 1267
+	}
+}

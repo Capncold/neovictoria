@@ -1,0 +1,9 @@
+owner = URL
+controller = URL
+add_core = URL
+add_core = RUS
+add_core = URA
+trade_goods = timber
+terrain = boreal
+life_rating = 10
+colonial = 2

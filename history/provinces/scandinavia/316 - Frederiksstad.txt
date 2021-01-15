@@ -1,0 +1,6 @@
+owner = NEO
+controller = NEO
+add_core = NEO
+add_core = NOR
+trade_goods = fish
+life_rating = 35
